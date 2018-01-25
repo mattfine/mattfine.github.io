@@ -3,17 +3,60 @@
   font-size: 8rem;
 }
 
+.sect-title {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 /* Navigation Styles */
 .navbar {
   margin-bottom: 0;
 }
 
+/* Jumbotron Styles */
+.jumbotron {
+  margin-bottom: 0;
+}
+
 /* Skills Styles */
+.skills {
+  margin-bottom: 10px;
+}
+
 .skills h4 {
   font-weight: normal;
+}
+
+.skills .row div {
+  margin-bottom: 30px;
 }
 
 /* Project Styles */
 .projects {
   background-color: #eee;
+  padding-bottom: 30px;
+}
+
+.projects p {
+  padding-bottom: 20px;
+}
+
+/* Contact Styles */
+.contact {
+  margin-bottom: 20px;
+}
+
+.contact span {
+  color: black;
+  margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #eee;
+}
+
+footer .text-center p {
+  margin: 0;
+  padding: 20px 0;
 }
