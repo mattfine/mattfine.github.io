@@ -1,7 +1,19 @@
+/* Global Settings */
+.glyphicon {
+  font-size: 8rem;
+}
+
+/* Navigation Styles */
 .navbar {
   margin-bottom: 0;
 }
 
-.glyphicon {
-  font-size: 8rem;
+/* Skills Styles */
+.skills h4 {
+  font-weight: normal;
+}
+
+/* Project Styles */
+.projects {
+  background-color: #eee;
 }

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="./resources/css/style.css">
   </head>
+
   <body>
     <!-- Header with navbar -->
     <header>
@@ -28,7 +29,7 @@
       </nav>
     </header>
 
-
+    <!-- Jumbotron with Information about the page -->
     <section class="jumbotron">
       <div class="container-fluid text-center">
         <h1>Matt Fine: Web Developer Showcase</h1>
@@ -38,6 +39,7 @@
       </div>
     </section>
 
+    <!-- Skills Section: 3 columns with icons -->
     <section class="skills">
       <div class="container-fluid">
         <!-- Skills Heading -->
@@ -48,37 +50,68 @@
           <div class="col-sm-4 text-center">
             <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
             <h3>Frontend Development</h3>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>Javascript</p>
+            <h4>HTML</h4>
+            <h4>CSS</h4>
+            <h4>Javascript</h4>
           </div>
           <!-- Database and Reporting Column -->
           <div class="col-sm-4 text-center">
             <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span>
             <h3>Database and Reporting</h3>
-            <p>SQL</p>
-            <p>SSRS</p>
-            <p>Excel</p>
+            <h4>SQL</h4>
+            <h4>SSRS</h4>
+            <h4>Excel</h4>
           </div>
           <!-- Tools Column -->
           <div class="col-sm-4 text-center">
             <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
             <h3>Developer / Design Tools</h3>
-            <p>Git</p>
-            <p>Atom with Linter</p>
-            <p>Sketch</p>
+            <h4>Git</h4>
+            <h4>Atom with Linter</h4>
+            <h4>Sketch</h4>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Projects Section: Lg:3 cols & 2 rows Md:2 cols & 3 rows -->
     <section class="projects">
-      <a href="https://mattfine.github.io/ColmarAcademy">Colmar Academy Codecademy Capstone Project</a>
-      <a href="https://mattfine.github.io/Fotomatic">Fotomatic Codecademy Project to Fix a Broken Site</a>
-      <a href="https://mattfine.github.io/TortoiseshellOptics">Tortoiseshell Optics Project from Codecademy</a>
-      <a href="https://mattfine.github.io/SecretAgentSupply">Secret Agent Supply Project from Codecademy</a>
-      <a href="https://mattfine.github.io/tea_cozy">Tea Cozy Project from Codecademy</a>
-      <a href="https://mattfine.github.io/my_times">My Times Project from Codecademy</a>
+      <div class="container-fluid">
+        <h1 class="text-center sect-title">Projects</h1>
+
+        <!-- Row 1 -->
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-lg-4 col-md-6">
+            <img class="img-responsive" src="./resources/images/colmar-academy.png" alt="Colmar Academy Web Page">
+            <h4 class="text-center"><a href="https://mattfine.github.io/ColmarAcademy">Colmar Academy</a></h4>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-lg-4 col-md-6">
+            <img class="img-responsive" src="./resources/images/fotomatic.png" alt="Fotomatic Web Page">
+            <h4 class="text-center"><a href="https://mattfine.github.io/Fotomatic">Fotomatic</a></h4>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-lg-4 col-md-6">
+            <img class="img-responsive" src="./resources/images/tortoiseshell-optics.png" alt="Tortoiseshell Optics Web Page">
+            <h4 class="text-center"><a href="https://mattfine.github.io/TortoiseshellOptics">Tortoiseshell Optics</a></h4>
+          </div>
+          <!-- Project 4 -->
+          <div class="col-lg-4 col-md-6">
+            <img class="img-responsive" src="./resources/images/secret-agent-supply.png" alt="Secret Agent Supply Web Page">
+            <h4 class="text-center"><a href="https://mattfine.github.io/SecretAgentSupply">Secret Agent Supply</a></h4>
+          </div>
+          <!-- Project 5 -->
+          <div class="col-lg-4 col-md-6">
+            <img class="img-responsive" src="./resources/images/tea-cozy.png" alt="Tea Cozy Web Page">
+            <h4 class="text-center"><a href="https://mattfine.github.io/tea_cozy">Tea Cozy</a></h4>
+          </div>
+          <!-- Project 6 -->
+          <div class="col-lg-4 col-md-6">
+            <img class="img-responsive" src="./resources/images/my-times.png" alt="My Times Web Page">
+            <h4 class="text-center"><a href="https://mattfine.github.io/my_times">My Times</a></h4>
+          </div>
+      </div>
     </section>
 
     <footer>
