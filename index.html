@@ -2,17 +2,95 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Matt Fine - Github Projects</title>
-    <link rel="stylesheet" type="text" href="./resources/css/reset.css">
-    <link rel="stylesheet" type="text" href="./resources/css/style.css">
+    <!-- <link rel="stylesheet" href="./resources/css/reset.css"> -->
+    <!-- Latest compiled and minified CSS from Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="./resources/css/style.css">
   </head>
   <body>
-    <h1>Hey There! Thanks for checking out my Github Projects!</h1>
-    <h2>I'm using GitHub as a way to showcase some of the things that I'm learning. Here are links to some projects that I've worked on through Codecademy</h2>
-    <a href="https://mattfine.github.io/Fotomatic">Fotomatic Codecademy Project to Fix a Broken Site</a>
-    <a href="https://mattfine.github.io/TortoiseshellOptics">Tortoiseshell Optics Project from Codecademy</a>
-    <a href="https://mattfine.github.io/SecretAgentSupply">Secret Agent Supply Project from Codecademy</a>
-    <a href="https://mattfine.github.io/tea_cozy">Tea Cozy Project from Codecademy</a>
-    <a href="https://mattfine.github.io/my_times">My Times Project from Codecademy</a>
+    <!-- Header with navbar -->
+    <header>
+      <!-- Inverse Navbar -->
+      <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Matt Fine</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">GitHub Site</a></li>
+            <li><a href="https://github.com/mattfine">GitHub Profile</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+
+    <section class="jumbotron">
+      <div class="container-fluid text-center">
+        <h1>Matt Fine: Web Developer Showcase</h1>
+        <!-- <h3>Hey There! Thanks for checking out my Github Projects!</h3> -->
+        <p>I'm using GitHub Pages as a way to showcase some of the web development skills that I'm learning. At the bottom of the page you will find links to some projects that I've worked on through Codecademy's Intensive "How to Build a Website" Course.</p>
+        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p> -->
+      </div>
+    </section>
+
+    <section class="skills">
+      <div class="container-fluid">
+        <!-- Skills Heading -->
+        <h1 class="text-center sect-title">Technical Skills</h1>
+        <!-- 1x3 Bootstrap grid with list of some high level skills -->
+        <div class="row">
+          <!-- Frontend Column -->
+          <div class="col-sm-4 text-center">
+            <span class="glyphicon glyphicon-globe" aria-hidden="true"></span>
+            <h3>Frontend Development</h3>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          </div>
+          <!-- Database and Reporting Column -->
+          <div class="col-sm-4 text-center">
+            <span class="glyphicon glyphicon-hdd" aria-hidden="true"></span>
+            <h3>Database and Reporting</h3>
+            <p>SQL</p>
+            <p>SSRS</p>
+            <p>Excel</p>
+          </div>
+          <!-- Tools Column -->
+          <div class="col-sm-4 text-center">
+            <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
+            <h3>Developer / Design Tools</h3>
+            <p>Git</p>
+            <p>Atom with Linter</p>
+            <p>Sketch</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects">
+      <a href="https://mattfine.github.io/ColmarAcademy">Colmar Academy Codecademy Capstone Project</a>
+      <a href="https://mattfine.github.io/Fotomatic">Fotomatic Codecademy Project to Fix a Broken Site</a>
+      <a href="https://mattfine.github.io/TortoiseshellOptics">Tortoiseshell Optics Project from Codecademy</a>
+      <a href="https://mattfine.github.io/SecretAgentSupply">Secret Agent Supply Project from Codecademy</a>
+      <a href="https://mattfine.github.io/tea_cozy">Tea Cozy Project from Codecademy</a>
+      <a href="https://mattfine.github.io/my_times">My Times Project from Codecademy</a>
+    </section>
+
+    <footer>
+
+    </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
