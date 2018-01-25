@@ -21,12 +21,19 @@
       <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container-fluid">
           <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
             <a class="navbar-brand" href="#">Matt Fine</a>
           </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">GitHub Site</a></li>
-            <li><a href="https://github.com/mattfine">GitHub Profile</a></li>
-          </ul>
+          <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active"><a href="#">GitHub Site</a></li>
+              <li><a href="https://github.com/mattfine">GitHub Profile</a></li>
+            </ul>
+          </div>
         </div>
       </nav>
     </header>
@@ -86,7 +93,8 @@
           <!-- Project 1 -->
           <div class="col-lg-4 col-md-6">
             <a href="https://mattfine.github.io/ColmarAcademy">
-              <img class="img-responsive" src="./resources/images/colmar-academy.png" alt="Colmar Academy Web Page">
+              <img class="img-responsive img-desktop" src="./resources/images/colmar-academy.png" alt="Colmar Academy Web Page">
+              <img class="img-responsive img-mobile" src="./resources/images/colmar-academy-mobile.png" alt="Colmar Academy Mobile Web Page">
               <h4 class="text-center">Colmar Academy</h4>
             </a>
             <p class="text-center"><a class="btn btn-primary" href="https://github.com/mattfine/ColmarAcademy">View Source</a></p>
@@ -94,7 +102,8 @@
           <!-- Project 2 -->
           <div class="col-lg-4 col-md-6">
             <a href="https://mattfine.github.io/Fotomatic">
-              <img class="img-responsive" src="./resources/images/fotomatic.png" alt="Fotomatic Web Page">
+              <img class="img-responsive img-desktop" src="./resources/images/fotomatic.png" alt="Fotomatic Web Page">
+              <img class="img-responsive img-mobile" src="./resources/images/fotomatic-mobile.png" alt="Fotomatic Mobile Web Page">
               <h4 class="text-center">Fotomatic</h4>
             </a>
             <p class="text-center"><a class="btn btn-primary" href="https://github.com/mattfine/Fotomatic">View Source</a></p>
@@ -102,7 +111,8 @@
           <!-- Project 3 -->
           <div class="col-lg-4 col-md-6">
             <a href="https://mattfine.github.io/TortoiseshellOptics">
-              <img class="img-responsive" src="./resources/images/tortoiseshell-optics.png" alt="Tortoiseshell Optics Web Page">
+              <img class="img-responsive img-desktop" src="./resources/images/tortoiseshell-optics.png" alt="Tortoiseshell Optics Web Page">
+              <img class="img-responsive img-mobile" src="./resources/images/tortoiseshell-optics-mobile.png" alt="Tortoiseshell Optics Mobile Web Page">
               <h4 class="text-center">Tortoiseshell Optics</h4>
             </a>
             <p class="text-center"><a class="btn btn-primary" href="https://github.com/mattfine/TortoiseshellOptics">View Source</a></p>
@@ -110,7 +120,8 @@
           <!-- Project 4 -->
           <div class="col-lg-4 col-md-6">
             <a href="https://mattfine.github.io/SecretAgentSupply">
-              <img class="img-responsive" src="./resources/images/secret-agent-supply.png" alt="Secret Agent Supply Web Page">
+              <img class="img-responsive img-desktop" src="./resources/images/secret-agent-supply.png" alt="Secret Agent Supply Web Page">
+              <img class="img-responsive img-mobile" src="./resources/images/secret-agent-supply-mobile.png" alt="Secret Agent Supply Mobile Web Page">
               <h4 class="text-center">Secret Agent Supply</h4>
             </a>
             <p class="text-center"><a class="btn btn-primary" href="https://github.com/mattfine/SecretAgentSupply">View Source</a></p>
@@ -168,8 +179,7 @@
 
 
     <!-- Bootstrap jQuery: Latest as of 1/25/18 compiled and minified -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Bootstrap JavaScript: Latest as of 1/25/18 compiled and minified -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
