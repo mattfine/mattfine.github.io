@@ -32,13 +32,28 @@
 }
 
 /* Project Styles */
+.card-inverse {
+  background-color: white;
+  border-color: white;
+  color: #333;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
 .projects {
   background-color: #eee;
   padding-bottom: 30px;
 }
 
-.projects p {
-  padding-bottom: 20px;
+.projects img {
+  border-radius: 6px 6px 0 0;
+  opacity: 0.9;
+  border: 1px solid #eee;
+}
+
+.projects img:hover {
+  opacity: 1;
 }
 
 .img-mobile {
